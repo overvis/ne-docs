@@ -1,5 +1,21 @@
 {
-  "tabWidth": 4,
-  "useTabs": false,
-  "printWidth": 99
+    "tabWidth": 4,
+    "useTabs": false,
+    "printWidth": 99,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": "*.md",
+            "options": {
+                "tabWidth": 2,
+                "proseWrap": "never"
+            }
+        },
+        {
+            "files": "*.html",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }

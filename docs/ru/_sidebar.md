@@ -1,1 +1,1 @@
--   [RNPP-311M](RNPP-311M/)
+-   [RNPP-311M](/ru/RNPP-311M/)
