@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "dzylikecode.docsify-preview",
+        "esbenp.prettier-vscode",
+        "editorconfig.editorconfig"
+    ]
+}
