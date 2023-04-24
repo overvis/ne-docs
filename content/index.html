@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Novatek-Electro Technical Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="description" content="Novatek-Electro Technical Documentation" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-solarizedlight.min.css"
+        />
+        <style>
+            :root {
+                --base-font-size: 14px;
+                --sidebar-width: 20rem;
+                /* --link-color: #0074d9; */
+                --link-color: #1488b7;
+                --sidebar-nav-link-color: var(--link-color);
+            }
+            .sidebar > h1 img {
+                max-width: 200px;
+                margin-top: 3px;
+            }
+            .cover .cover-main > p:last-child a:first-child {
+                background: none;
+                color: var(--cover-button-color);
+            }
+            .cover .cover-main > p:last-child a:hover {
+                border: var(
+                    --cover-button-primary-border--hover,
+                    var(
+                        --cover-button-border--hover,
+                        var(--cover-button-primary-border, var(--cover-button-border))
+                    )
+                );
+                box-shadow: var(
+                    --cover-button-primary-box-shadow--hover,
+                    var(
+                        --cover-button-box-shadow--hover,
+                        var(--cover-button-primary-box-shadow, var(--cover-button-box-shadow))
+                    )
+                );
+                background: var(
+                    --cover-button-primary-background--hover,
+                    var(
+                        --cover-button-background--hover,
+                        var(--cover-button-primary-background, var(--cover-button-background))
+                    )
+                );
+                -webkit-text-decoration: var(
+                    --cover-button-primary-text-decoration--hover,
+                    var(
+                        --cover-button-text-decoration--hover,
+                        var(
+                            --cover-button-primary-text-decoration,
+                            var(--cover-button-text-decoration)
+                        )
+                    )
+                );
+                text-decoration: var(
+                    --cover-button-primary-text-decoration--hover,
+                    var(
+                        --cover-button-text-decoration--hover,
+                        var(
+                            --cover-button-primary-text-decoration,
+                            var(--cover-button-text-decoration)
+                        )
+                    )
+                );
+                -webkit-text-decoration-color: var(
+                    --cover-button-primary-text-decoration-color--hover,
+                    var(
+                        --cover-button-text-decoration-color--hover,
+                        var(
+                            --cover-button-primary-text-decoration-color,
+                            var(--cover-button-text-decoration-color)
+                        )
+                    )
+                );
+                text-decoration-color: var(
+                    --cover-button-primary-text-decoration-color--hover,
+                    var(
+                        --cover-button-text-decoration-color--hover,
+                        var(
+                            --cover-button-primary-text-decoration-color,
+                            var(--cover-button-text-decoration-color)
+                        )
+                    )
+                );
+                color: var(
+                    --cover-button-primary-color--hover,
+                    var(
+                        --cover-button-color--hover,
+                        var(--cover-button-primary-color, var(--cover-button-color))
+                    )
+                );
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script>
+            window.$docsify = {
+                name: "Novatek-Electro Technical Documentation",
+                logo: "/logo-ua.png",
+                nameLink: {
+                    "/ua/": "#/ua/",
+                    "/en/": "#/en/",
+                    "/pl/": "#/pl/",
+                    "/ru/": "#/ru/",
+                },
+                repo: "https://github.com/overvis/ne-docs",
+                relativePath: true,
+                themeColor: "#1488b7",
+                loadSidebar: true,
+                subMaxLevel: 3,
+                loadNavbar: true,
+                autoHeader: true,
+                auto2top: true,
+                fallbackLanguages: ["ua", "en"],
+                coverpage: true,
+                onlyCover: true,
+                plugins: [
+                    function (hook) {
+                        var footer = [
+                            "<hr/>",
+                            "<footer style='font-size: 80%; line-height: 150%;'>",
+                            '<div><a href="https://www.novatek-electro.com/">Novatek-Electro</a> &copy; 2023. Support: <a href="mailto:support@novatek-electro.com">support@novatek-electro.com</a></div>',
+                            '<div>Discuss and edit this documentation at: <a href="https://github.com/overvis/ne-docs">https://github.com/overvis/ne-docs</a></div>',
+                            "</footer>",
+                        ].join("");
+
+                        hook.afterEach(function (html) {
+                            return html + footer;
+                        });
+                    },
+                ],
+            };
+        </script>
+        <!-- Docsify v4 -->
+        <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+        <!-- <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+    </body>
+</html>

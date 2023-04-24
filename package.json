@@ -1,0 +1,10 @@
+{
+    "name": "ne-docs",
+    "packageManager": "yarn@3.5.0",
+    "scripts": {
+        "dev": "docsify serve content"
+    },
+    "devDependencies": {
+        "docsify-cli": "^4.4.4"
+    }
+}
