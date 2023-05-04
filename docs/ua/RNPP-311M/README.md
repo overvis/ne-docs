@@ -1,6 +1,6 @@
 # РЕЛЕ НАПРУГИ, ПЕРЕКОСУ ТА ПОСЛІДОВНОСТІ ФАЗ RNPP-311M. КЕРІВНИЦТВО З ЕКСПЛУАТАЦІЇ ПАСПОРТ
 
-:printer: [Загрузить PDF](rnpp-311m-ua.pdf)
+:printer: [Загрузить PDF](/ne-docs/ua/RNPP-311M/rnpp-311m-ua.pdf ":ignore")
 
 ![RNPP-311M](rnpp-311m-ua.jpg)
 
