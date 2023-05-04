@@ -8,7 +8,7 @@
             "files": "*.md",
             "options": {
                 "tabWidth": 2,
-                "proseWrap": "never"
+                "proseWrap": "preserve"
             }
         },
         {
