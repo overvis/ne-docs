@@ -1,4 +1,4 @@
-# PRZEKAŹNIK KONTROLI NAPIĘCIA, SYMETRII I KOLEJNOŚCI FAZ RNPP-311M. INSTRUKCJA OBSŁUGI DOKUMENTACJA TECHNICZNA
+# PRZEKAŹNIK KONTROLI NAPIĘCIA, SYMETRII I KOLEJNOŚCI FAZ RNPP-311M. INSTRUKCJA OBSŁUGI. DOKUMENTACJA TECHNICZNA.
 
 ![RNPP-311M-device](rnpp-311M-device.png)
 
@@ -8,11 +8,13 @@ _System zarządzania jakością opracowywania i procesu produkcji spełnia wymag
 
 **Szanowni Państwo,**
 
-**Firma Novatek-Electro dziękuje za zakup naszego produktu. Prosimy o dokładne zapoznanie się z instrukcją, co pozwoli Państwu prawidłowo korzystać z naszego wyrobu. Instrukcję obsługi należy zachować przez cały okres użytkowania urządzenia. Przed przystąpieniem do eksploatacji urządzenia należy dokładnie zapoznać się z Instrukcją obsługi.**
+Firma Novatek-Electro dziękuje za zakup naszego produktu. Prosimy o dokładne zapoznanie się z instrukcją, co pozwoli Państwu prawidłowo korzystać z naszego wyrobu. Instrukcję obsługi należy zachować przez cały okres użytkowania urządzenia. Przed przystąpieniem do eksploatacji urządzenia należy dokładnie zapoznać się z Instrukcją obsługi.
 
 ---
 
-:warning: **UWAGA!! WSZYSTKIE WYMAGANIA OKREŚLONE W NINIEJSZEJ INSTRUKCJI SĄ OBOWIĄZKOWE DO SPEŁNIENIA!NA ZACISKACH I ELEMENTACH WEWNĘTRZNYCH URZĄDZENIA WYSTĘPUJE NAPIĘCIE NIEBEZPIECZNE DLA ŻYCIA. W CELU ZAPEWNIENIA BEZPIECZNEJ EKSPLOATACJI URZĄDZENIA KATEGORYCZNIE ZABRANIA SIĘ:**
+**UWAGA!! WSZYSTKIE WYMAGANIA OKREŚLONE W NINIEJSZEJ INSTRUKCJI SĄ OBOWIĄZKOWE DO SPEŁNIENIA!**
+
+:warning: **NA ZACISKACH I ELEMENTACH WEWNĘTRZNYCH URZĄDZENIA WYSTĘPUJE NAPIĘCIE NIEBEZPIECZNE DLA ŻYCIA. W CELU ZAPEWNIENIA BEZPIECZNEJ EKSPLOATACJI URZĄDZENIA KATEGORYCZNIE ZABRANIA SIĘ:**
 
 - WYKONYWANIE PRZEGLĄDÓW TECHNICZNYCH I PRAC MONTAŻOWYCH, GDY URZĄDZENIE NIE JEST OD‎ŁĄCZONE OD SIECI;
 - SAMODZIELNE OTWIERANIE I NAPRAWA URZĄDZENIA;
@@ -59,7 +61,9 @@ Niniejsza instrukcja obsługi służy do zapoznania się z budową, zasadą dzia
 - kontroli jakości napięcia sieciowego po odłączeniu obciążenia i automatycznego ponownego załączenia po przywróceniu właściwych parametrów napięcia;
 - sygnalizacji awarii w razie wystąpienia sytuacji awaryjnej oraz sygnalizacji obecności napięcia w każdej fazie RNPP-311M dokonuje kontroli zera metodą pośrednią.
 
-W urządzeniu przewidziane są możliwości regulacji parametró (progu zadziałania przy zmianie napięcia, czasu SPZ i czasu opóźnienia zadziałania zabezpieczenia). Przekaźnik RNPP-311M umożliwia wybór typu sieci kontrolo-wanej (400 lub 415 V) oraz udostępnia zestaw funkcji ochronnych. Po przywróceniu parametrów napięcia sieci, urządzenie ponownie włącza obciążenie czasu SPZ.
+W urządzeniu przewidziane są możliwości regulacji parametró (progu zadziałania przy zmianie napięcia, czasu SPZ i czasu opóźnienia zadziałania zabezpieczenia). Przekaźnik RNPP-311M umożliwia wybór typu sieci kontrolo-wanej (400 lub 415 V) oraz udostępnia zestaw funkcji ochronnych.
+
+Po przywróceniu parametrów napięcia sieci, urządzenie ponownie włącza obciążenie czasu SPZ.
 
 **Uwaga! W sieciach z wysokim poziomem składowych harmonicznych zalecane jest stosowanie przekaź-nik RNPP-311M-24 z podłączeniem zasilania zewnętrznego 24 V.**
 
@@ -68,6 +72,8 @@ W urządzeniu przewidziane są możliwości regulacji parametró (progu zadział
 Elementy sterujące, wymiary gabarytowe i montażowe RNPP-311M są podane na rysunku 1.
 
 ![RNPP-311M-rysunku1](RNPP-311M-rysunku1.png)
+
+**Rysunek 1** - Organy sterujące, wymiary gabarytowe i montażowe
 
 1. wejściowe styki 400/415 V;
 2. przełącznik: typ sieci 400/415 V;
@@ -81,8 +87,6 @@ Elementy sterujące, wymiary gabarytowe i montażowe RNPP-311M są podane na rys
 10. regulacja opóźnienia zadziałania Toff;
 11. regulacja czasu ponownego załączenia Ton;
 12. regulacja progu zadziałania przy Umax/Umin Unom;
-
-**Rysunek 1** - Organy sterujące, wymiary gabarytowe i montażowe
 
 **1.3 Warunki eksploatacji**
 
@@ -116,11 +120,15 @@ Podstawowe dane techniczne urządzenia są podane w tabeli 1
 
 **UWAGA! WSZELKIE PODŁĄCZENIA NALEŻY WYKONYWAĆ PRZY ODŁĄCZONYM NAPIĘCIU.**
 
-**Błąd podczas montażu może skutkować uszkodzeniem urządzenia i podłączonych do niego przyrządów.** Aby zapewnić niezawodność połączeń elektrycznych, zalecane jest stosowanie giętkich przewodów wielodrutowych z izolacją na napięcie nie mniej 450V, końce których przed podłączeniem należy odizolować na 5±0.5 mm i zacisnąć końcówkami tulejkowymi. Zalecamy zastosowanie przewodu o przekroju nie mniejszym niż 1.0 mm2. Przewody muszą być zamocowane w taki sposób, aby nie zostały one narażone na uszkodzenia mechaniczne, skręcanie oraz przetarcie izolacji.
+**Błąd podczas montażu może skutkować uszkodzeniem urządzenia i podłączonych do niego przyrządów.**
+
+Aby zapewnić niezawodność połączeń elektrycznych, zalecane jest stosowanie giętkich przewodów wielodrutowych z izolacją na napięcie nie mniej 450V, końce których przed podłączeniem należy odizolować na 5±0.5 mm i zacisnąć końcówkami tulejkowymi. Zalecamy zastosowanie przewodu o przekroju nie mniejszym niż 1.0 mm2. Przewody muszą być zamocowane w taki sposób, aby nie zostały one narażone na uszkodzenia mechaniczne, skręcanie oraz przetarcie izolacji.
 
 **NIEDOPUSZCZALNE JEST POZOSTAWIENIE ODIZOLOWANYCH CZĘŚCI PRZEWODÓW WYCHODZĄCYCH POZA GRANICE LISTWY ZACISKOWEJ.**
 
-**Aby zapewnić niezawodny styk, należy dokręcić śruby listwy zaciskowej z zachowaniem odpowiedniego momentu dokręcenia wg tabeli 1.** Zmniejszenie momentu dokręcania powoduje nagrzanie miejsca styku, topienie listwy zaciskowej i zapalenie się przewodu. W przypadku zwiększenia momentu dokręcania może dojść do zerwania gwintu śrub listwy zaciskowej lub uciskania podłączonego przewodu.
+**Aby zapewnić niezawodny styk, należy dokręcić śruby listwy zaciskowej z zachowaniem odpowiedniego momentu dokręcenia wg tabeli 1.**
+
+Zmniejszenie momentu dokręcania powoduje nagrzanie miejsca styku, topienie listwy zaciskowej i zapalenie się przewodu. W przypadku zwiększenia momentu dokręcania może dojść do zerwania gwintu śrub listwy zaciskowej lub uciskania podłączonego przewodu.
 
 3.1.2.1 Podłączyć urządzenie zgodnie z rysunkiem 2.
 
@@ -130,7 +138,11 @@ Podstawowe dane techniczne urządzenia są podane w tabeli 1
 
 3.1.2.3 Za pomocą regulatora **Toff (sec)** (poz.10 rys. 1) ustawić czas zadziałania zabezpieczenia dla maksymal-nego napięcia i asymetrii faz.
 
-3.1.2.4 Za pomocą regulatora **Ton (sec)** (poz.11 rys. 1) ustawić czas SPZ. Тon - czas automatycznego ponownego załączenia przekaźnika i przywrócenia parametrów napięcia sieciowego; czas załączenia po podaniu na przekaźnik normalnego napięcia. Dla klimatyzatorów, lodówek i innych urządzeń wyposażonych w sprężarki zalecane jest ustawienie czasu SPZ na nie mniej niż 180-240 sekund.
+3.1.2.4 Za pomocą regulatora **Ton (sec)** (poz.11 rys. 1) ustawić czas SPZ.
+
+Тon - czas automatycznego ponownego załączenia przekaźnika i przywrócenia parametrów napięcia sieciowego; czas załączenia po podaniu na przekaźnik normalnego napięcia.
+
+Dla klimatyzatorów, lodówek i innych urządzeń wyposażonych w sprężarki zalecane jest ustawienie czasu SPZ na nie mniej niż 180-240 sekund.
 
 **UWAGA! Aby nie uszkodzić pokręteł, prosimy nie używać nadmiernej siły podczas ustawiania parametrów**
 
@@ -159,7 +171,7 @@ _2 - Jeżeli jest przewidziana praca przekaźnika w trybie "Kontrola maksymalneg
 - "Kontrola nieprawidłowej kolejności i wystąpienia załączenia dwóch faz jednocześnie";
 - "Kontrola asymetrii faz";
 
-**Uwaga:**
+**_Uwaga:_**
 
 1. Kontrola obecności faz utrzymuje się we wszystkich trybach pracy;
 2. Bez względu na tryb pracy przekaźnik zadziała w przypadku zaniku fazy lub spadku napięcia poniżej 100 V na jednej lub kilku fazach po upływie czasu stałego opóźnienia 0.2 s.
@@ -176,9 +188,15 @@ _2 - Jeżeli jest przewidziana praca przekaźnika w trybie "Kontrola maksymalneg
 
 3.2.1.6 W trybie "Kontrola asymetrii faz" w przypadku asymetrii fazna panelu przednim przekaźnika naprzemiennie będą świecić dwie lampki **LINE**, zaświeci się lampka **ALARM**, a chronione urządzenie zostanie odłączone od sieci.
 
-**3.2.2** Na wyjściu przekaźnik posiada dwa komplety niezależnych styków przełącznych (1-2-3, 4-5-6). W stanie zimnym (przy braku napięcia lub gdy przekaźnik nie jest podłączony) styki 1-2(4-5) są zwarte, a styki 2-3 (5-6) rozwarte. Gdy przekaźnik obciążenia zadziała, wyłączenie obciążenia następuje w wyniku przerwania obwodu zasilania cewki wyzwalacza elektromagnetycznego poprzez styki 2-3 (5-6), **z wyjątkiem trybu maksymalnego napięcia, w którym przekaźnik pracuje z odwrotną logiką załączenia**.
+**3.2.2** Na wyjściu przekaźnik posiada dwa komplety niezależnych styków przełącznych (1-2-3, 4-5-6). W stanie zimnym (przy braku napięcia lub gdy przekaźnik nie jest podłączony) styki 1-2(4-5) są zwarte, a styki 2-3 (5-6) rozwarte.
 
-**3.2.3** Po podaniu zasilania na zaciski urządzenia zostają włączone lampki **LINE**. Przekaźnik przechodzi w tryb opóźnienia czasu SPZ (ustawiany za pomocą pokrętła **Ton(sec)**), wówczas miga lampka **ALARM**. Po zakończeniu odliczania czasu SPZ lampka **ALARM** zostanie wyłączona i przekaźnik podłączy chronione urządzenie do sieci. W przypadku wystąpienia awarii odliczanie czasu SPZ zaczyna się od razu po zadziałaniu przekaźnika obciążenia.
+Gdy przekaźnik obciążenia zadziała, wyłączenie obciążenia następuje w wyniku przerwania obwodu zasilania cewki wyzwalacza elektromagnetycznego poprzez styki 2-3 (5-6), **z wyjątkiem trybu maksymalnego napięcia, w którym przekaźnik pracuje z odwrotną logiką załączenia**.
+
+**3.2.3** Po podaniu zasilania na zaciski urządzenia zostają włączone lampki **LINE**. Przekaźnik przechodzi w tryb opóźnienia czasu SPZ (ustawiany za pomocą pokrętła **Ton(sec)**), wówczas miga lampka **ALARM**.
+
+Po zakończeniu odliczania czasu SPZ lampka **ALARM** zostanie wyłączona i przekaźnik podłączy chronione urządzenie do sieci.
+
+W przypadku wystąpienia awarii odliczanie czasu SPZ zaczyna się od razu po zadziałaniu przekaźnika obciążenia.
 
 **3.2.4** Jeżeli przekaźnik jest używany w trybie "Kontrola maksymalnego napięcia", przy **normalnym napięciu** w sieci przekaźnik obciążenia jest wyłączony (styki 1-2 (4-5) zwarte, а styki 2-3 (5-6) rozwarte). Zrobiono tak, żeby urządzenie w trybie "Kontrola maksymalnego napięcia" nigdy nie zadziałał w przypadku spadku napięcia. W tym trybie podczas pierwszego włączenia przekaźnika do sieci wartość czasu SPZ (**Ton(sec)**) nie jest uwzgledniana.
 
@@ -204,19 +222,26 @@ _2 - Jeżeli jest przewidziana praca przekaźnika w trybie "Kontrola maksymalneg
 Przełącznik **Umin** znajduje się w pozycji "ON".
 
 Przełączniki **Umax**, **IMB** znajdują się w pozycji "OFF".
-Jeżeli awaria nastąpiła na skutek napięcia minimalnego, przekaźnik zadziała po upływie ustawionego przez użytkownika czasu **Toff**, zaświeci się dioda **ALARM** i zgaśnie odpowiednia dioda (lub diody) **LINE**. W przypadku spadku napięcia poniżej 100 V przekaźnik zadziała po upływie 0.2 s.
+
+Jeżeli awaria nastąpiła na skutek napięcia minimalnego, przekaźnik zadziała po upływie ustawionego przez użytkownika czasu **Toff**, zaświeci się dioda **ALARM** i zgaśnie odpowiednia dioda (lub diody) **LINE**.
+
+W przypadku spadku napięcia poniżej 100 V przekaźnik zadziała po upływie 0.2 s.
 
 **3.3.2 Przekaźnik kontroli minimalnego/maksymalnego napięcia i obecności faz.**
 
 Przełączniki **Umax** i **Umin** znajdują się w pozycji "ON".
 
-Przekaźnik zadziała w przypadku wzrostu napięcia powyżej ustawionego progu po upływie czasu **Toff**, a w przypadku spadku – po upływie stałego opóźnienia 12 s (czas nieczułości na napięcie rozruchu). Zaświeci się czerwona dioda LED **ALARM**. W przypadku zaniku faz przekaźnik zadziała po upływie 0.2 s.
+Przekaźnik zadziała w przypadku wzrostu napięcia powyżej ustawionego progu po upływie czasu **Toff**, a w przypadku spadku – po upływie stałego opóźnienia 12 s (czas nieczułości na napięcie rozruchu).
+
+Zaświeci się czerwona dioda LED **ALARM**. W przypadku zaniku faz przekaźnik zadziała po upływie 0.2 s.
 
 **3.3.3 Przekaźnik kontroli napięcia maksymalnego**
 
 Przełącznik **Umax** znajduje się w pozycji "ON".
 
-Przełączniki **Umin**, **SEQ** i **IMB** w pozycji "OFF”. Zgaśnie się dioda LED **ALARM**. Jeżeli awaria nastąpiła na skutek napięcia maksymalnego, przekaźnik zadziała po upływie czasu (**Toff**+0.4) s, czerwona dioda LED **ALARM** świeci.
+Przełączniki **Umin**, **SEQ** i **IMB** w pozycji "OFF”. Zgaśnie się dioda LED **ALARM**.
+
+Jeżeli awaria nastąpiła na skutek napięcia maksymalnego, przekaźnik zadziała po upływie czasu (**Toff**+0.4) s, czerwona dioda LED **ALARM** świeci.
 
 **3.3.4 Przekaźnik czasowy z opóźnieniem załączenia**
 
@@ -224,7 +249,11 @@ Przełączniki **Umin**, **Umax** znajdują się w pozycji "OFF”.
 
 Przekaźnik obciążenia włączy się po odliczaniu czasu, ustawionego przez użytkownika pokrętłem **Ton**.
 
-We wszystkich trybach pracy włączenie/wyłączenie zabezpieczenia przed nieprawidłową kolejnością faz odbywa się za pomocą przełącznika **SEQ**, natomiast włączenie/wyłączenie zabezpieczenia przed asymetrią faz odbywa się za pomocą przełącznika IMB. W przypadku zaniku faz lub spadku napięcia poniżej 100 V na jednej lub więcej fazach przekaźnik zadziała (włączy się), dioda LED odpowiedniej fazy zgaśnie. Jeżeli przełączniki **Umin**, **Umax**, **SEQ** i **IMB** znajdują się w pozycji "ON", a awaria nastąpiła na skutek napięcia minimalnego, przekaźnik zadziała po upływie stałego opóźnienia 12 s (czas nieczułości na napięcie rozruchu).
+We wszystkich trybach pracy włączenie/wyłączenie zabezpieczenia przed nieprawidłową kolejnością faz odbywa się za pomocą przełącznika **SEQ**, natomiast włączenie/wyłączenie zabezpieczenia przed asymetrią faz odbywa się za pomocą przełącznika IMB.
+
+W przypadku zaniku faz lub spadku napięcia poniżej 100 V na jednej lub więcej fazach przekaźnik zadziała (włączy się), dioda LED odpowiedniej fazy zgaśnie.
+
+Jeżeli przełączniki **Umin**, **Umax**, **SEQ** i **IMB** znajdują się w pozycji "ON", a awaria nastąpiła na skutek napięcia minimalnego, przekaźnik zadziała po upływie stałego opóźnienia 12 s (czas nieczułości na napięcie rozruchu).
 
 ## 4 OBSŁUGA TECHNICZNA
 
@@ -244,7 +273,9 @@ We wszystkich trybach pracy włączenie/wyłączenie zabezpieczenia przed niepra
 
 **Do czyszczenia urządzenia nie używać materiałów ściernych i rozpuszczalników.**
 
-**4.5** W przypadku wadliwego funkcjonowania urządzenia, neleży wyłączyć zasilanie oraz sprawdzić podłączenie. W przypadku gdy nie udalo się zidentyfikować potencjalne przyczyny awarii, prosimy skontaktować się z producentem.
+**4.5** W przypadku wadliwego funkcjonowania urządzenia, neleży wyłączyć zasilanie oraz sprawdzić podłączenie.
+
+W przypadku gdy nie udalo się zidentyfikować potencjalne przyczyny awarii, prosimy skontaktować się z producentem.
 
 ## 5 TRANSPORT I PRZECHOWYWANIE
 
@@ -256,7 +287,9 @@ Przekaźnik powinien być przechowywany w oryginalnym opakowaniu w zamkniętym p
 
 **6.2** Okres przechowywania wynosi 3 lata.
 
-**6.3** Okres gwarancji na urządzenie wynosi 5 lat od daty sprzedaży. W czasie trwania gwarancji (w przypadku nie zadziałania urządzenia) producent zapewnia bezpłatną naprawę urządzenia.
+**6.3** Okres gwarancji na urządzenie wynosi 5 lat od daty sprzedaży.
+
+W czasie trwania gwarancji (w przypadku nie zadziałania urządzenia) producent zapewnia bezpłatną naprawę urządzenia.
 
 **UWAGA!! KUPUJĄCY TRACI UPRAWNIENIA Z TYTUŁU GWARANCJI, JEŻELI USZKODZENIE URZĄDZE-NIA WYNIKŁO NA SKUTEK NIEPRZESTRZEGANIA ZASAD ZAWARTYCH W NINIEJSZEJ INSTRUKCJI.**
 
