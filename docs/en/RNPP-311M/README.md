@@ -2,7 +2,7 @@
 
 ![RNPP-311M-device](rnpp-311m-Device.png)
 
-Quality control system on the development and production complies with requirements ISO 9001:2015
+**Quality control system on the development and production complies with requirements ISO 9001:2015**
 
 ---
 
@@ -16,8 +16,7 @@ Company NOVATEK-ELECTRO Ltd. thanks you for purchasing our products. You will be
 
 :warning: **WARNING** – PRODUCT TERMINALS AND INTERNAL COMPONENTS ARE UNDER POTENTIALLY LETHAL VOLTAGE TO ENSURE THE PRODUCT SAFE OPERATION **IT IS STRICTLY FORBIDDEN THE FOLLOWING:**
 
--**TO CARRY OUT MOUNTING WORKS AND MAINTENANCE WITHOUT DISCONNECTING THE PRODUCT FROM THE MAINS;**
-
+- **TO CARRY OUT MOUNTING WORKS AND MAINTENANCE WITHOUT DISCONNECTING THE PRODUCT FROM THE MAINS;**
 - TO OPEN AND REPAIR THE PRODUCT INDEPENDENTLY;
 - TO OPERATE THE PRODUCT WITH MECHANICAL DAMAGES OF THE CASE.
 
@@ -85,7 +84,9 @@ The term **"Normal voltage"** means that the voltage value does not exceed the t
 - for monitoring the quality of the mains voltage after switching off the load and automatically turning it on after restoring the voltage parameters;
 - to indicate the failure in the event of emergency situation and the presence of voltage in each phase.
 
-RNPP-311M performs zero control, indirectly. The device provides the possibility of adjusting the parameters (voltage threshold, time of automatic reclosing and time delay of protection operation), selection of the voltage of the monitored mains (400 V or 415 V) and a set of protective functions.
+RNPP-311M performs zero control, indirectly.
+
+The device provides the possibility of adjusting the parameters (voltage threshold, time of automatic reclosing and time delay of protection operation), selection of the voltage of the monitored mains (400 V or 415 V) and a set of protective functions.
 
 After restoring the voltage parameters of the mains, the device enables again the load after the reclosing time.
 
@@ -142,13 +143,14 @@ When reducing the tightening torque, the junction point is heated, the terminal 
 
 **3.1.2.1** Connect the device according to the diagram shown in Fig. 2.
 
-**Figure 2** - RNPP-311M Connection diagram
 ![RNPP-figure2](rnpp-311m-figure2.png)
+
+**Figure 2** - RNPP-311M Connection diagram
 
 **Notes:**
 
-- If on the first start up RNPP-311M doesn’t allow to turn ON the power load and indicates wrong phase sequence alarm but the user is absolutely sure that the phase sequence is correct – then it is necessary to exchange the wires connected to terminals **10 and 11**.
-- If RNPP-311M is being used as a **maximal voltage protection relay** then the break in the magnetic starter coil power circuit should be connected to terminals **1-2 (4-5)** (the reverse logic of switching-on). The switch **Umax** (it. 6, Fig. 1) should be set to ON position (enabled) and the switches **SEQ**, **IMB** and **Umin** should be set to the OFF position (disabled).
+1. If on the first start up RNPP-311M doesn’t allow to turn ON the power load and indicates wrong phase sequence alarm but the user is absolutely sure that the phase sequence is correct – then it is necessary to exchange the wires connected to terminals **10 and 11**.
+2. If RNPP-311M is being used as a **maximal voltage protection relay** then the break in the magnetic starter coil power circuit should be connected to terminals **1-2 (4-5)** (the reverse logic of switching-on).<br>The switch **Umax** (it. 6, Fig. 1) should be set to ON position (enabled) and the switches **SEQ**, **IMB** and **Umin** should be set to the OFF position (disabled).
 
 **3.1.2.2** Using the **Unom ±%** control (it. 12, Fig. 1), set the required operation threshold for the maximum and minimum voltage as a percentage of the rated supply voltage of the mains.
 
@@ -165,7 +167,9 @@ It is recommended to set the reclosing time AR for air conditioners, refrigerato
 **ATTENTION! In order not to break or turn the control, please do not use excessive force when performing the setting operations.**
 
 **3.1.2.5** Enable the necessary protections using protection switches (it. 3 – 6, Fig. 1).
+
 **3.1.2.6** Set the type of mains used with switch of rated voltage of **400 V / 415 V** (it. 2, Fig. 1).
+
 **3.1.2.7** Feed the supply voltage to the terminals of the device.
 
 **3.2 Operation**
@@ -179,7 +183,10 @@ It is recommended to set the reclosing time AR for air conditioners, refrigerato
 - "Control of incorrect phase sequence and presence of phase sticking";
 - "Phase imbalance control".
 
-_Notes: - The control of phases presence is maintained in any operating mode; - In all operating modes, except for the “Maximum voltage control” mode, the product is activated when the phases are broken or the voltage drops below 100 V on one or several phases for a fixed time of 0.2 s._
+**Notes:**
+
+1. The control of phases presence is maintained in any operating mode;
+2. In all operating modes, except for the “Maximum voltage control” mode, the product is activated when the phases are broken or the voltage drops below 100 V on one or several phases for a fixed time of 0.2 s.
 
 In “Minimum / maximum voltage control" mode, when the voltage value of the mains is exceeded for the thresholds set by the User, the protected equipment will be disconnected from the mains and red **ALARM** LED indicator will turn ON .
 
